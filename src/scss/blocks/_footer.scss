@@ -1,0 +1,15 @@
+.footer{
+    background-color: #273ae5;
+    padding: 50px 0;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    &__red{
+        color: yellow;
+    }
+}
+@media (max-width: 1200px){
+    .footer{
+        font-size: 32px;
+    }
+}
